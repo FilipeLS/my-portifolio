@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Vamos conversar!</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu"> <!-- Começo do menu -->
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/assets/html/about.html">Sobre</a></li>
+                <li><a href="/assets/html/projetos.html">Projetos</a></li>
+                <li><a href="/assets/html/contact.html">Contatos</a></li>            
+            </ul>
+        </nav>
+    </header><!-- Final do menu -->
+
+
+    <div class="titulo">
+        <h2>Entre em contato comigo</h2>
+    </div>
+    <hr id="linha">
+    <div class="social-media">
+            <a href="https://github.com/FilipeLS"><i class="bi bi-github"></i></a>
+            <a href="https://wa.me/4499164755"><i class="bi bi-whatsapp"></i></a>
+            <a href="mailto:filipelealsilva6@gmail.com"><i class="bi bi-envelope"></i></a>
+    </div>
+
+    <div class="segunda-opcao">
+        <h2 class="option-two">Preencha o formulario abaixo, <br> e entraremos em contato com você.<br> 👇👇</h2>
+    </div>
+
+    <section class="form">
+        <h2 class="h2">Contato</h2>
+        <form action="https://formsubmit.co/fswebdesigner7@gmail.com " method="POST">
+            <label>Nome</label>
+            <input type="text"  class="name" name="name" placeholder="*Digite seu nome" autocomplete="off" required >
+            <label>Email</label>
+            <input type="email" class="email"name="email" placeholder="*Digite seu email" autocomplete="off" required> 
+            <label>Mensagem</label>
+            <textarea name="message" rows="4" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="_autoresponse" value="Muito obrigado por preencher o formulario, assim que possivel entrarei em contato com Você">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://sfe.netlify.app/assets/html/agradecimento.html">
+        </form>
+    </section>
+
+    <footer>
+        <div class="redes-sociais">
+             <a href="https://github.com/FilipeLS"><i class="bi bi-github" id="github" target="_blank"></i></a>
+             <a href="https://wa.me/4499164755"><i class="bi bi-whatsapp" id="whatsapp" target="_blank"></i></a>
+             <a href="mailto:filipelealsilva6@gmail.com"><i class="bi bi-envelope" id="email" target="_blank"></i></a>
+        </div>
+         <p>Entre em contato e solicite um orçamento</p>
+ 
+         <p class="creditos"><a href="https://sfe.netlify.app" id="name"> S.F.E </a> Copyright &copy; 2023</p>
+     </footer>
+</body>
+</html>

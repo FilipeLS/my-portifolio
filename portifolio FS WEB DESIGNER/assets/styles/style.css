@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s all;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(27, 26, 26);
+    transition: 0.7s all;
+}
+
+body.initial-page{
+    background-image: url(/assets/img/img-de-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+   justify-content: center;
+   transition: 0.7s all;
+}
+
+
+
+ul li{
+    display: inline-flex;
+    justify-content: space-around;
+    padding-inline: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+
+}
+
+a:hover{
+    color: rgb(0, 0, 233);
+}
+
+.conteudo{
+    margin-top: 200px;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+span#o{
+    color: rgb(0, 0, 247);
+}
+
+a.button{
+    font-family: "Poppins", sans-serif;
+    padding-inline: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.7s all;
+}
+
+a.button:hover{
+    background-color: rgb(1, 1, 202);
+}
+
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1.eu{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.sobre{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projetos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto1{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.projeto2{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+img.project-2{
+    width: 100%;
+    height: 150px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+a.vas{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.vas:hover{
+    color: rgb(3, 3, 236);
+}
+
+.title{
+    margin-top: 100px;
+    color: #fff;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.social-media a{
+    padding: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 28, 28);
+    border-radius: 100%;
+}
+
+.social-media a:hover{
+    background-color: #fff;
+}
+
+.titulo{
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-projeto{
+    display: flex;
+    justify-content: center;
+}
+
+.segunda-opcao{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.redes-sociais a i{
+    padding: 10px;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#github{
+    color: #fff;
+    margin-right: 5px;
+}
+
+#github:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+#whatsapp{
+    color: #fff;
+}
+#whatsapp:hover{
+    color: rgb(0, 255, 38);
+    background-color: #fff;
+}
+
+#email{
+    color: #fff;
+    margin-left: 5px;
+}
+
+#email:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+}
+
+footer ul li a{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    width: 3px;
+}
+
+footer p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#name{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 500px ){
+    .projetos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*inicio da estilização do formulario de contato*/
+
+section.form{
+    background: rgb(39, 39, 39);
+    width: 300px; 
+    height: 400px;
+    margin-left: 530px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    color: #fff;
+    margin-left: 36px;
+    margin-top: 50px;
+}
+
+input{
+    color: #fff;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+h2.h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+input.name{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+input.email{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+textarea{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.7s;
+}
+
+textarea:hover{
+    background: rgba(39, 39, 39);
+    color: #fff;
+}
+
+textarea::placeholder:hover{
+    color: #fff;
+}
+
+button{
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: rgb(53, 67, 218);
+    border: 1px solid #fff9f9;
+    height: 30px;
+    color: #fff;
+}
+
+button:hover{
+    background-color: rgb(50, 50, 255);
+    color: #fff;
+}
+
+@media screen and (max-width: 500px){
+    section.form{
+        margin-left: 15px;
+    }
+
+    h2.opition-two{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section.form{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.form{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    section.form{
+        margin-left: 530px;
+    }
+}
+/*fim da estilização do formulario de contato*/
+
+h1.text{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+p.paragrafo{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+a.btn{
+    display: flex;
+    justify-content: center;
+    transition: 0.7s ;
+    border: 1px solid #fff;
+}
+
+
